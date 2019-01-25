@@ -6,13 +6,15 @@
 
 弄一個 lamp 環境
 然後想辦法建UTF-8環境的database，裡面有兩個table，一個是post，一個是member
-blog     - post   - id (int)
-                  - title (text)
-                  - author (text)
-                  - post_time (datetime)
-                  - content (text)
-         - member - name (varchar)
-                  - username (varchar)
-                  - password (varchar，要是 md5 hash)
-                 
+```bash
+blog   - post   - id (int)
+                - title (text)
+                - author (text)
+                - post_time (datetime)
+                - content (text)
+   
+       - member - name (varchar)
+                - username (varchar)
+                - password (varchar，要是 md5 hash)
+```          
 varchar size 就設 255，BJ4。
