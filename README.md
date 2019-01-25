@@ -23,4 +23,4 @@ blog   - post   - id (int)
 varchar size 就設 255。
 
 
-在config/dbconnect.php裡可以設定
+在config/dbconnect.php裡可以設定連接db的參數 (hostname,username,password,database)
