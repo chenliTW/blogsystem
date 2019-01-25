@@ -23,4 +23,4 @@ blog   - post   - id (int)
 varchar size 就設 255。
 
 
-在config/dbconnect.php裡可以設定連接db的參數 mysqli(hostname,username,password,database);
+在config/dbconnect.php裡可以設定連接db的參數 $conn = new mysqli(hostname,username,password,database);
