@@ -4,6 +4,9 @@
 
 史上最陽春blogsystem(mysql+php)
 
+<img src="https://github.com/chenliTW/blogsystem/raw/master/examplepic/blog.PNG" height="500"><br>
+<img src="https://github.com/chenliTW/blogsystem/raw/master/examplepic/admin.PNG" height="500"><br>
+
 弄一個 lamp 環境
 然後想辦法建UTF-8環境的database，裡面有兩個table，一個是post，一個是member
 ```bash
@@ -24,3 +27,4 @@ varchar size 就設 255。
 
 
 在config/dbconnect.php裡可以設定連接db的參數 $conn = new mysqli(hostname,username,password,database);
+
