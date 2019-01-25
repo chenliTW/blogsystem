@@ -1,6 +1,6 @@
 # blogsystem
 
-!!!警告，此blog system一定有S-XSS vulnerability，可能有RCE與sqli vulnerability!!!
+!!!警告，此blog system一定有S-XSS vulnerability與sqli vulnerability和RCE vulnerability!!!
 
 史上最陽春blogsystem(mysql+php)
 
@@ -20,4 +20,7 @@ blog   - post   - id (int)
                 - username (varchar)
                 - password (varchar，要是 md5 hash)
 ```          
-varchar size 就設 255，BJ4。
+varchar size 就設 255。
+
+
+在config/dbconnect.php裡可以設定
