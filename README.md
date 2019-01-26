@@ -1,6 +1,6 @@
 # blogsystem
 
-!!!警告，此blog system一定有S-XSS vulnerability與sqli vulnerability和RCE vulnerability!!!
+!!!警告，此blog system一定有S-XSS vulnerability與sqli vulnerability和RCE vulnerability，但都在管理頁面裡面!!!
 
 史上最陽春blogsystem(mysql+php)
 
